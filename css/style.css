@@ -100,7 +100,7 @@ span {
 
 .nav-icon {
   width: 16px;
-  height: 13px;
+  height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -251,6 +251,8 @@ span {
   border-radius: 4px;
 }
 .advantage-icon {
+  max-width: 80px;
+  max-height: 80px;
 }
 /* Specialization */
 
@@ -317,6 +319,7 @@ span {
   color: var(--secondary-text-color);
 }
 .team-specific {
+  margin-bottom: 16px;
   margin-top: 0;
   text-align: center;
   font-weight: normal;
@@ -351,6 +354,25 @@ span {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+
+.social-list-item:not(:last-child) {
+  margin-right: 10px;
+}
+.social-link-icon {
+  width: 44px;
+  height: 44px;
+  fill: currentColor;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list {
+  margin-right: 10px;
+  margin-left: 32px;
+}
+
 /* footer */
 .footer-logo {
   font-family: "Raleway", sans-serif;
