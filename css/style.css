@@ -355,22 +355,25 @@ span {
   border-radius: 0px 0px 4px 4px;
 }
 
-.social-list-item:not(:last-child) {
-  margin-right: 10px;
-}
-.social-link-icon {
-  width: 44px;
-  height: 44px;
-  fill: currentColor;
-}
-
 .social-list {
   display: flex;
+  justify-content: center;
+  align-items: ;
 }
 
-.social-list {
-  margin-right: 10px;
-  margin-left: 32px;
+.social-link-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: #a51212;
+  border-radius: 50%;
+}
+
+.social-list-item :hover {
+  background-color: var(--main-hover-color);
+  fill: white;
 }
 
 /* footer */
