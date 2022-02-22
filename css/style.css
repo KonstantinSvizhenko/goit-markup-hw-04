@@ -260,6 +260,7 @@ span {
 .advantage-icon {
   max-width: 80px;
   max-height: 80px;
+  border-radius: 4px;
 }
 /* Specialization */
 
